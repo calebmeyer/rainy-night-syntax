@@ -68,7 +68,11 @@
 }
 
 .comment {
-  color: @light-gray;
+  color: @single-line-comment-color;
+  &.block {
+    color: @multi-line-comment-color;
+  }
+
 }
 
 .entity {
@@ -163,7 +167,10 @@
 .punctuation {
   &.definition {
     &.comment {
-      color: @light-gray;
+      color: @single-line-comment-color;
+      &.block, &.begin, &.end {
+        color: @multi-line-comment-color;
+      }
     }
 
     &.string,
