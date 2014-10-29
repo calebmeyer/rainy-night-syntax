@@ -26,9 +26,11 @@
     color: @syntax-gutter-text-color;
 
     .line-number {
+
       &.cursor-line {
         background-color: @syntax-gutter-background-color-selected;
         color: @syntax-gutter-text-color-selected;
+        text-shadow: 0 0 10px @bright-blue;
       }
 
       &.cursor-line-no-selection {
