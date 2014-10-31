@@ -114,7 +114,7 @@
   color: @orange;
 
   &.character.escape {
-    color: @cyan;
+    color: @string-escape-color;
   }
 
   &.numeric {
@@ -148,7 +148,7 @@
 }
 
 .string {
-  color: @green;
+  color: @string-color;
 
 
   &.regexp {
@@ -173,8 +173,10 @@
       }
     }
 
-    &.string,
-    &.variable,
+    &.string {
+      color: @string-color
+    }
+
     &.parameters,
     &.array {
       color: @syntax-text-color;
