@@ -56,6 +56,13 @@
   .selection .region {
     background-color: @syntax-selection-color;
   }
+
+  .bracket-matcher {
+    background-color: fade(@bracket-highlight, 40%);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 10px @bracket-highlight;
+  }
 }
 
 .editor .search-results .marker .region {
@@ -265,6 +272,10 @@
   &.separator {
     background-color: @gray;
     color: @syntax-text-color;
+  }
+
+  &.brace {
+    color: @bracket-color;
   }
 }
 

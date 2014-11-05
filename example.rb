@@ -11,8 +11,12 @@ class Example
 
   method_call
   predicate?
-  unsafe_method_call!
+  this.unsafe_method_call!
 
   method_call_with_parentheses()
+
+  a_random_hash = {
+    some: 'value'
+  }
 
 end
