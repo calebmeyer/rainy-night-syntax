@@ -1,7 +1,7 @@
 class Example
   # single line comment
-  CONSTANT = true
-
+  CONSTANT = true || false
+  $global_variable = nil
   @@class_variable = 1
   @instance_variable = "String with #{interpolation} and e\sc\ap\e characters"
 
