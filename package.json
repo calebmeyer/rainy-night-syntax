@@ -1,7 +1,7 @@
 {
   "name": "rainy-night-syntax",
   "theme": "syntax",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "A dark and blue syntax theme for atom",
   "repository": "https://github.com/calebmeyer/rainy-night-syntax",
   "license": "MIT",
