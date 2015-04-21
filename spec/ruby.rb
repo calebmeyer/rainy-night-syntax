@@ -18,5 +18,4 @@ class Example
   a_random_hash = {
     some: 'value'
   }
-
 end
