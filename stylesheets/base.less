@@ -1,11 +1,7 @@
-@import "syntax-variables";
+// Editor styles
 
-.editor-colors {
-  background-color: @syntax-background-color;
-  color: @syntax-text-color;
-}
-
-.editor {
+atom-text-editor,
+:host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
@@ -118,14 +114,14 @@
 }
 
 .constant {
-  color: @orange;
+  color: @very-light-gray;
 
   &.character.escape {
     color: @string-escape-color;
   }
 
   &.numeric {
-    color: @orange;
+    color: @very-light-gray;
   }
 
   &.other.color {
